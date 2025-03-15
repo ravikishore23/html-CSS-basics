@@ -1,0 +1,31 @@
+
+p {
+  margin-top: 6px;
+
+  margin-bottom: 5px;
+}
+.price {
+  font-family: Arial;
+  font-size: 30px;
+}
+.bugs {
+  font-family: Arial;
+  font-size: 16px;
+  opacity: 0.6;
+}
+.percent {
+  font-family: Arial;
+  color: rgb(25, 161, 25);
+  font-size: 15px;
+}
+
+.pos-time {
+  font-family: Arial;
+  font-size: 15px;
+  opacity: 0.7;
+}
+.neg-time {
+  color: red;
+  font-family: Arial;
+  font-size: 15px;
+}
