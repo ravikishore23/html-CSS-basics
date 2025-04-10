@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p {
+        font-family: Arial;
+        
+      }
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 25px;
+        margin-top: 5px;
+        margin-left: 12px;
+      }
+      .heading-txt {
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+      }
+
+      .subheadings {
+        color: rgb(218, 210, 210);
+        font-size: 14px;
+      }
+      .add-info-button {
+        color: rgb(218, 210, 210);
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .flex-parent {
+        display: flex;
+        width: 250px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        background-color: lightgrey;
+      }
+
+      .flex-child-1 {
+        display: flex;
+        background-color: rgb(51, 55, 55);
+        width: 65px;
+
+        flex-direction: column;
+      }
+
+      .child-in-1 {
+        width: 100%;
+        height: 100%;
+
+        margin-top: 15px;
+      }
+      .flex-child-2 {
+        display: flex;
+        background-color: rgb(78, 85, 85);
+        flex: 1;
+        height: 100%;
+      }
+      .info-grid {
+        flex: 5;
+        margin-left: 20px;
+        margin-top: 10px;
+      }
+      .add-info-grid {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-parent">
+      <div class="flex-child-1">
+        <div class="child-in-1">
+          <img class="profile-pic" src="download.jpg" alt=".404" />
+          <img class="profile-pic" src="webpic.jpg" alt=".404" />
+          <img
+            class="profile-pic"
+            src="japan-background-digital-art (2).jpg"
+            alt=".404"
+          />
+        </div>
+      </div>
+
+      <div class="flex-child-2">
+        <div class="info-grid">
+          <p class="heading-txt">INFO</p>
+
+          <p class="subheadings"># new-videos</p>
+          <p class="subheadings"># updates</p>
+          <p class="subheadings"># faq</p>
+        </div>
+        <div class="add-info-grid">
+          <p class="add-info-button">+</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

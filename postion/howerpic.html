@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .pic-grid {
+        display: flex;
+        width: 400px;
+        height: 200px;
+
+        background-color: lightcyan;
+      }
+      .cart-button {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+
+        object-position: center;
+      }
+      .cart-button {
+        background-color: rgb(33, 184, 234);
+        position: relative;
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: bold;
+
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        margin-top: 40px;
+        margin-left: 40px;
+      }
+      .cart-button .tooltip {
+        position: absolute;
+        background-color: rgb(169, 177, 179);
+        width: 100px;
+        height: 20px;
+        padding-left: 0px;
+        padding-right: 6px;
+        padding-top: 6px;
+        padding-bottom: 2px;
+        border-radius: 4px;
+
+        pointer-events: none;
+        white-space: nowrap;
+        opacity: 0;
+
+        top: -20px;
+        right: -90px;
+        transition: 1s;
+      }
+      .cart-button:hover .tooltip {
+        opacity: 0.6;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pic-grid">
+      <button class="cart-button">
+        +
+        <div class="tooltip">Add to cart</div>
+      </button>
+    </div>
+  </body>
+</html>

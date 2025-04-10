@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p {
+        font-family: Arial;
+      }
+
+      .profile-pic {
+        display: block;
+        width: 100%;
+       
+        
+        
+      }
+      .profile-name {
+        font-weight: bold;
+        margin-bottom: 0;
+      }
+      .mutual-friend {
+        margin-top: 2px;
+        width: 30px;
+        height: 30px;
+
+        border-radius: 30px;
+      }
+      .no-of-mutual-friends {
+        width: 100%;
+
+        margin-left: 4px;
+        margin-top: 10px;
+
+        font-size: 13px;
+        opacity: 0.5;
+      }
+      .add-frnd-button {
+        margin-top: 1px;
+        color: white;
+        background-color: rgb(83, 83, 236);
+        border: none;
+        width: 100px;
+        height: 30px;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+      .add-frnd-button:hover{
+        background-color:rgb(64, 15, 198);
+        
+        transition: 60ms;
+
+        
+
+        
+      }
+      .add-frnd-button:active{
+        background-color:rgb(89, 67, 150);
+
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="card"
+      style="
+        display: grid;
+        height: 170px;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 100px;
+      "
+    >
+      <div>
+        <div>
+          <img class="profile-pic" src="webpic.jpg" />
+        </div>
+        <div
+          style="
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+            margin-left: 5px;
+            margin-top: 0;
+            row-gap: 2px;   
+            
+          "
+        >
+          <div class="gridee1">
+            <p class="profile-name">Oliver</p>
+          </div>
+          <div>
+            <div
+              style="
+                display: grid;
+                grid-template-columns: 30px 1fr;
+                height: 20px;
+              "
+            >
+              <div>
+                <img
+                  class="mutual-friend"
+                  src="japan-background-digital-art (2).jpg"
+                />
+              </div>
+
+              <div>
+                <p class="no-of-mutual-friends">2 mutual friends</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <button class="add-frnd-button">Add friend</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gridee2">
+        <div>
+          <img class="profile-pic" src="OIP (1).jpg" />
+        </div>
+        <div
+          style="
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+            margin-left: 5px;
+            margin-top: 0;
+            row-gap: 2px;
+          "
+        >
+          <div >
+            <p class="profile-name">Miku</p>
+          </div>
+          <div>
+            <div
+              style="
+                display: grid;
+                grid-template-columns: 30px 1fr;
+                height: 20px;
+              "
+            >
+              <div>
+                <img
+                  class="mutual-friend"
+                  src="japan-background-digital-art (2).jpg"
+                />
+              </div>
+
+              <div>
+                <p class="no-of-mutual-friends">3 mutual friends</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <button class="add-frnd-button">Add friend</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+
+        
+      </div>
+    </div>
+  </body>
+</html>

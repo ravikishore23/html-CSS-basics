@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    p{
+        font-family: Arial;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    button{
+
+        font-family: Arial;
+      
+        border-style: solid;
+        border-radius: 4px;
+        border-width: 2px;
+        width: 60px;
+        height: 23px;
+        padding-top:2px;
+        padding-bottom: 2px;
+        border-color: rgb(187, 185, 185);
+        
+    }
+      .button {
+        position: fixed;
+        background-color: rgb(37, 192, 29);
+        color: white;
+        bottom: 0px;
+        right: 0px;
+        top: 0;
+        width: 100px;
+      }
+
+      .overlay {
+        display: flex;
+        position: fixed;
+        background-color: rgba(194, 190, 190, 0.8);
+
+        bottom: 0px;
+        right: 0px;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        align-items: center;
+        
+        
+        margin-top: 0;
+        margin-bottom: 0;
+
+
+      }
+
+    </style>
+  </head>
+
+  <body style="padding-bottom: 100px;">
+    <div class="button">right-side bar</div>
+    
+      <div class="overlay"> 
+        <div
+          style="
+           
+            background-color: rgb(255, 255, 255);
+            width: 340px;
+            height: 130px;
+            border-radius: 5px;
+
+           
+            
+          "
+        >
+        <div style="background-color: rgb(255, 255, 255);width: 300px;
+        height: 100px;margin-left: 10px;">
+            <h2 style="font-family: Arial;margin-bottom: 0;">Model Title</h2>
+            <p >This is a modal</p>
+            <button>Close</button>
+        </div>
+     
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
